@@ -135,7 +135,23 @@ System.out.println("novo valor de y = " +y);
 
 //exerc.31
 
+import java.util.Scanner;
+public class MyClass {
+    public static void main(String[] args) {
 
+ Scanner ler = new Scanner(System.in);
+ 
+ int ma;
+
+ma = (8 + 9 + 7 )/ 3;
+
+System.out.println("A media aritmetica e :" + ma);
+
+
+  
+  
+    }
+}
 
 //exerc.40
 
