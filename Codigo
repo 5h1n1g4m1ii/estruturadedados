@@ -155,7 +155,32 @@ System.out.println("A media aritmetica e :" + ma);
 
 //exerc.40
 
+import java.util.Scanner;
+public class MyClass {
+    public static void main(String[] args) {
 
+ Scanner ler = new Scanner(System.in);
+ 
+ int quoc, rest, vali, va12;
+
+ System.out.println("entre com o dividendo ");
+ val1 = ler.nextInt();
+ System.out.println("entre com divisor. ");
+ val2 = ler.nextInt();
+ 
+ quoc = val1 / val2;
+ rest = val1 % val2;
+ 
+
+System.out.println("\nDividendo: " + val1);
+System.out.println("\ndivisor: " + val2);
+System.out.println("\nquociente: " + quoc);
+System.out.println("\nresto: " + rest);
+
+  
+  
+    }
+}
 
 //exerc.41
 
