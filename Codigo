@@ -267,7 +267,29 @@ System.out.println("\nlogaritmo: " + logaritmo);
 
 //exerc.44
 
+import java.util.Scanner;
+public class MyClass {
+    public static void main(String[] args) {
 
+ Scanner ler = new Scanner(System.in);
+ 
+ double num, base, logaritmo;
+ 
+ System.out.println("\nentre com o logaritmando: ");
+ num = ler.nextInt();
+  System.out.println("\nentre com a base: ");
+ base = ler.nextInt();
+
+ 
+logaritmo = log(num) / log(base);
+ 
+ 
+System.out.println("\no logaritmo deb" + num + "bna baseb" + base +  "be:b"+ logaritmo);
+
+
+  
+    }
+}
 
 //exerc.46
 
