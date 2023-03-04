@@ -316,4 +316,28 @@ System.out.println("\nnovo saldo: "+nsaldo);
 
 //exerc.48
 
+import java.util.Scanner;
+public class MyClass {
+    public static void main(String[] args) {
 
+ Scanner ler = new Scanner(System.in);
+ 
+ double sm, qtdade, preco, vp, vd;
+ 
+ System.out.println("\nentre com o salário mínimo: ");
+ sm = ler.nextInt();
+  System.out.println("\nentre com a quantidade em quilowatt: ");
+ qtdade = ler.nextInt();
+
+ 
+preco = sm /700; 
+vp = preco * qtdade;
+vd = vp * 0.9;
+ 
+ 
+System.out.println("\npreço do quilowatt:" + preco + "\n valor a ser pago: "+ vp +
+" \n valor com desconto: " + vd);
+
+  
+    }
+}
