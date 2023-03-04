@@ -206,16 +206,40 @@ public class MyClass {
  
 
 System.out.println("\nmedia ponderada: " + mp);
-;
 
-  
-  
     }
 }
 
 //exerc.42
 
+import java.util.Scanner;
+public class MyClass {
+    public static void main(String[] args) {
 
+ Scanner ler = new Scanner(System.in);
+ 
+ double angulo, rang, pi;
+ 
+ pi = 3.14;
+ 
+ System.out.println("digite um angulo em graus: ");
+ angulo = ler.nextInt();
+
+ 
+ rang =  angulo*pi /180;
+ 
+ 
+
+System.out.println("\nseno: " + sen(rang);
+System.out.println( "\nco-seno: "+ cos(rang));
+System.out.println("\ntangente: "+ tan(rang);
+System.out.println("\nco-secante: " + 1/ sen(rang);
+System.out.println("\nsecante: " +1cos(rang);
+System.out.println("\ncotangente: "+ 1/ tan(rang);
+
+  
+    }
+}
 
 //exerc.43
 
