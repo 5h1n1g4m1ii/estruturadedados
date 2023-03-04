@@ -184,7 +184,34 @@ System.out.println("\nresto: " + rest);
 
 //exerc.41
 
+import java.util.Scanner;
+public class MyClass {
+    public static void main(String[] args) {
 
+ Scanner ler = new Scanner(System.in);
+ 
+ int a, b, c,d, mp;
+
+ System.out.println("entre com 1 numero: ");
+ a = ler.nextInt();
+ System.out.println("entre com 2 numero: ");
+ b = ler.nextInt();
+ System.out.println("entre com 3 numero:");
+ c = ler.nextInt();
+ System.out.println("entre com 4 numero: ");
+ d = ler.nextInt();
+ 
+ mp =  (a*1 + b*2 + c*3 + d*4)/10;
+ 
+ 
+
+System.out.println("\nmedia ponderada: " + mp);
+;
+
+  
+  
+    }
+}
 
 //exerc.42
 
