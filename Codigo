@@ -31,7 +31,14 @@ public class MyClass {
 
 //exerc.18
 
+public class MyClass {
+    public static void main(String args[]) {
+      int x;
+       x =10;
 
+      System.out.println("Valor de x = " + x+1);
+    }
+}
 
 //exerc.23
 
