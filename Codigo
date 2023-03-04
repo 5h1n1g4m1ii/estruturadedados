@@ -20,7 +20,14 @@ public class MyClass {
 
 //exerc.16
 
+public class MyClass {
+    public static void main(String args[]) {
+      int x;
+       x =10;
 
+      System.out.println(x);
+    }
+}
 
 //exerc.18
 
