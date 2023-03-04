@@ -293,7 +293,26 @@ System.out.println("\no logaritmo deb" + num + "bna baseb" + base +  "be:b"+ log
 
 //exerc.46
 
+import java.util.Scanner;
+public class MyClass {
+    public static void main(String[] args) {
 
+ Scanner ler = new Scanner(System.in);
+ 
+ double saldo, nsaldo;
+ 
+ System.out.println("\ndigite saldo: ");
+ saldo = ler.nextInt();
+
+ 
+nsaldo = -saldo * 1.01;
+ 
+ 
+System.out.println("\nnovo saldo: "+nsaldo);
+
+  
+    }
+}
 
 //exerc.48
 
