@@ -42,7 +42,21 @@ public class MyClass {
 
 //exerc.23
 
+import java.util.Scanner;
+public class MyClass {
+    public static void main(String args[]) {
+      Scanner ler = new Scanner(System.in);
+     
+      int a,d;
 
+        System.out.println("Digite numero de tres casas: ");
+		a = ler.nextInt();
+		
+		d= a %100/10;
+		
+      System.out.println("algarismo da casa das dezenas: "+d);
+    }
+}
 
 //exerc.25
 
