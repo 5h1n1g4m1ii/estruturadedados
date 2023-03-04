@@ -60,7 +60,28 @@ public class MyClass {
 
 //exerc.25
 
+import java.util.Scanner;
+public class MyClass {
+    public static void main(String[] args) {
 
+ Scanner ler = new Scanner(System.in);
+ 
+ int dia, mes, ano;
+
+ System.out.println("Informe o dia: ");
+ dia = ler.nextInt();
+ System.out.println("Informe o mes: ");
+ mes = ler.nextInt();
+ System.out.println("Informe o ano: ");
+ ano = ler.nextInt();
+
+System.out.println("\nDIA: " +dia);
+System.out.println("\nMES: " +mes);
+System.out.println("\nANO: " +ano);
+  
+  
+    }
+}
 
 //exerc.26
 
