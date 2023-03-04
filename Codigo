@@ -9,7 +9,14 @@ public class MyClass {
 
 //exerc.12
 
-
+public class MyClass {
+    public static void main(String args[]) {
+     
+      System.out.println("Aprendendo Algoritmo!!!");
+      System.out.println("Com Anita e Guto");
+    }
+    }
+}
 
 //exerc.16
 
