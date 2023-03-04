@@ -109,7 +109,29 @@ public class MyClass {
 
 //exerc.27
 
+import java.util.Scanner;
+public class MyClass {
+    public static void main(String[] args) {
 
+ Scanner ler = new Scanner(System.in);
+ 
+ int x,y;
+x = 2;
+y= 5;
+
+ System.out.println("x = " + x);
+ x++;
+ System.out.println("y = " + y);
+ y--;
+ 
+
+System.out.println("novo valor de x =  " + x);
+System.out.println("novo valor de y = " +y);
+
+  
+  
+    }
+}
 
 //exerc.31
 
