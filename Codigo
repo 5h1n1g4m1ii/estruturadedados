@@ -243,7 +243,27 @@ System.out.println("\ncotangente: "+ 1/ tan(rang);
 
 //exerc.43
 
+import java.util.Scanner;
+public class MyClass {
+    public static void main(String[] args) {
 
+ Scanner ler = new Scanner(System.in);
+ 
+ double num, logaritmo;
+ 
+ System.out.println("\nentre com o logaritmando: ");
+ num = ler.nextInt();
+
+ 
+logaritmo = log(num) / log(10);
+ 
+ 
+System.out.println("\nlogaritmo: " + logaritmo);
+
+
+  
+    }
+}
 
 //exerc.44
 
